@@ -27,7 +27,7 @@
 }
 
 .tasks_list_items_display{
-    width: 60%;
+    /* width: 60%; */
     margin:auto;
     text-align: left;
     margin-bottom: 20px;
@@ -49,6 +49,7 @@
     margin-right: 10px;
     font-size: 24px;
     font-weight: bold;
+    /* word-wrap:break-word; */
     color: red;
 }
 
@@ -61,12 +62,16 @@
     opacity: 0.6;
     font-weight: bold;
     color: red;
+    /* word-wrap:break-word; */
+    /* width: 160px; */
 }
 .tasks_list_item_span_unchecked {
     flex-grow: 1;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 22px;
+    /* word-wrap:break-word; */
+    /* width: 160px; */
 }
 
 .tasks_list_item_span_checked {
@@ -75,7 +80,8 @@
     margin-right: 10px;
     font-size: 22px;
     text-decoration: line-through;
-    opacity: 0.6;
+    /* opacity: 0.6; */
+    /* width: 160px; */
 }
 
 
@@ -111,15 +117,9 @@
     display: block;
     margin:auto;
     margin-bottom: 20px;
+    /* margin-bottom: 5px; */
+
   }
-
-
-.tasks_list_date_input {
-    width: 80%;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid orange;
-    display: block;
-    margin:auto;
-    margin-bottom: 20px;
+.tasks_list_date_in_item {
+    border: none;
 }
