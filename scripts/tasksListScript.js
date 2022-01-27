@@ -175,9 +175,9 @@ function renderTasksList(){
   if (allTasksList == null || allTasksList.length === 0){
     console.log("show no task prompt");
     let tasksListModuleTitle =  document.getElementById("tasks_list_title");//locate where to add
-    const noTaskFoudnPrompt = document.createElement("div");// create new element
-    noTaskFoudnPrompt.setAttribute('class', `task_nofound_prompt`);
-    noTaskFoudnPrompt.textContent = "No tasks found yet. Let's create a task now:";
+    const noTaskFoudnPrompt = document.createElement("div");// create new element // <div></div>
+    noTaskFoudnPrompt.setAttribute('class', `task_nofound_prompt`); // <div class="task_nofound_prompt"></div>
+    noTaskFoudnPrompt.textContent = "No tasks found yet. Let's create a task now:"; // <div class="task_nofound_prompt">No tasks found yet. Let's create a task now:</div>
     tasksListModuleTitle.appendChild(noTaskFoudnPrompt);//inject into 
   }else{
     // step 3: if has task, then show tasks
